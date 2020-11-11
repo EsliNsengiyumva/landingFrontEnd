@@ -1,13 +1,13 @@
 <html>
-    <<head>
+    <head>
         <meta charset="utf-8"/>
         <title> Home Page</title>
         <!-- Load an icon library -->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="../css/styles.css">
-
+        <script src="/js/validation.js"></script>
     </head>   
-    <bod> 
+    <body onload='document.contactForm.email.focus()'> 
 
        
        <div class="divHeader"> 
@@ -69,7 +69,7 @@
 
            
 
-                <form action="#" >
+                <form name="contactForm"action="#" >
 
                     <label for="fullName" class="fnameLabel">Full Name</label>
                     <input type="text" id="fullName" name="firstname" placeholder="Your name.." class="fnameText">
@@ -82,7 +82,7 @@
                     <label for="message" class="messageLabel">Message</label>
                     <textarea id="message" name="message" placeholder="Write something.." class="messageText" ></textarea>
                 
-                    <input type="submit" value="Send" class="sendButton">
+                    <input type="submit" value="Send" class="sendButton" onclick="ValidateEmail(document.contactForm.email)">
                 
                   </form>
 
@@ -138,5 +138,5 @@
             </div>
        
 
-    </bod>
+    </body>
 </html>

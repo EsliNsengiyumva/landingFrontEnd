@@ -4,10 +4,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .divHeader{
+
   position: absolute;
-width: 1438px;
-height: 153px;
-left: 2px;
+  width: 1440px;
+  
+
+height: 140px;
+left: 0px;
 top: 0px;
 
 background: #FFFFFF;
@@ -95,7 +98,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0p
   position: absolute;
   width: 95px;
   height: 30px;
-  left: 1162px;
+  left: 1100px;
   top: 69px;
   background: #417FA2; 
   border-radius: 48px;
@@ -115,7 +118,7 @@ color: #FFFFFF;
   position: absolute;
   width: 95px;
   height: 30px;
-  left: 1279px;
+  left: 1200px;
   top: 71px;
   
   background: #417FA2;
@@ -248,9 +251,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0p
 
 }
 .rectangle8{
-  /* Rectangle 21 */
-
-
 position: absolute;
 width: 270px;
 height: 250px;
@@ -1840,3 +1840,60 @@ color: #FFFFFF;
     overflow: auto; 
     text-align:justify; 
 } 
+
+/* blog page*/
+.blogForm{
+  position: absolute;
+width: 1362px;
+height: 433px;
+left: 54px;
+top: 177px;
+
+background: rgba(188, 123, 185, 0.32);
+border-radius: 7px;
+}
+.textBlog{
+  position: absolute;
+width: 428px;
+height: 147px;
+left: 104px;
+top: 200px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+
+color: #000000;
+
+}
+/*validation email*/
+li {list-style-type: none;
+  font-size: 16pt;
+  }
+  .mail {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  background : #D8F1F8;
+  border: 1px soild silver;
+  }
+  .mail h2 {
+  margin-left: 38px;
+  }
+  input {
+  font-size: 20pt;
+  }
+  input:focus, textarea:focus{
+  background-color: lightyellow;
+  }
+  input submit {
+  font-size: 12pt;
+  }
+  .rq {
+  color: #FF0000;
+  font-size: 10pt;
+  }
+  
