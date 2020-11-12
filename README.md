@@ -1,2 +1,2 @@
 # landingFrontEnd
-home, about, blog, contact, login, pages
+home, about, blog, contact, login
